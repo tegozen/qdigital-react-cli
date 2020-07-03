@@ -5,37 +5,3 @@ html, body, #root {
 #root {
   overflow: auto;
 }
-.app {
-  background-color: black;
-  min-height: 100%;
-  .app__blocker {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .app__preload {
-    font-size: 30px;
-    font-family: arial;
-    color: white;
-  }
-  .app__canvas {
-    width: 100%;
-    height: 100%;
-  }
-}
-.button {
-  background-color: rgb(36, 101, 187);
-  color: white;
-  cursor: pointer;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  border-radius: 5px;
-  font-size: 35px;
-  font-family: arial;
-}
